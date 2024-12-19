@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Map: Methods of Foreign Language Teaching</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+            position: relative;
+        }
+        h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .method {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin: 10px 0;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+        }
+        .method::after {
+            content: "→";
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #3498db;
+        }
+        .method:last-child::after {
+            content: "";
+        }
+        .sub-method {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            border-radius: 6px;
+            margin-left: 50px;
+        }
+        .advantages, .disadvantages {
+            margin-left: 30px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .advantages li, .disadvantages li {
+            margin: 5px 0;
+        }
+        .advantages li:before, .disadvantages li:before {
+            content: "•";
+            color: #3498db;
+            margin-right: 10px;
+        }
+        .methods-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Mind Map: Methods of Foreign Language Teaching</h1>
+
+    <div class="methods-wrapper">
+        <div class="method">Grammar-Translation</div>
+        <div class="method">Direct Method</div>
+        <div class="method">Audio-Lingual</div>
+    </div>
+
+    <div class="methods-wrapper">
+        <div class="sub-method">
+            Focus: Reading & translating texts, learning grammar
+            <ul class="advantages">
+                <li>Builds vocabulary and grammar knowledge</li>
+                <li>Focuses on accuracy</li>
+            </ul>
+            <ul class="disadvantages">
+                <li>Limited speaking practice</li>
+                <li>Does not emphasize communicative skills</li>
+            </ul>
+        </div>
+
+        <div class="sub-method">
+            Focus: Speaking & listening, no translation
+            <ul class="advantages">
+                <li>Promotes fluency</li>
+                <li>Encourages natural language acquisition</li>
+            </ul>
+            <ul class="disadvantages">
+                <li>Difficult for beginners</li>
+                <li>May not focus enough on grammar</li>
+            </ul>
+        </div>
+
+        <div class="sub-method">
+            Focus: Listening & pronunciation through drills
+            <ul class="advantages">
+                <li>Improves pronunciation</li>
+                <li>Enhances listening skills</li>
+            </ul>
+            <ul class="disadvantages">
+                <li>Lacks creativity</li>
+                <li>Limited focus on grammar</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="methods-wrapper">
+        <div class="method">Communicative Language Teaching</div>
+        <div class="method">Task-Based Learning</div>
+    </div>
+
+    <div class="methods-wrapper">
+        <div class="sub-method">
+            Focus: Communication and fluency
+            <ul class="advantages">
+                <li>Encourages real-world interaction</li>
+                <li>Engages learners</li>
+            </ul>
+            <ul class="disadvantages">
+                <li>Grammar may be neglected</li>
+            </ul>
+        </div>
+
+        <div class="sub-method">
+            Focus: Real-world tasks, problem-solving, and fluency
+            <ul class="advantages">
+                <li>Practical application</li>
+                <li>Motivates learners</li>
+            </ul>
+            <ul class="disadvantages">
+                <li>Time-consuming preparation</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
